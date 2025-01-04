@@ -99,19 +99,19 @@
         {
             "tag": "WARP-MAIN",
             "type": "wireguard",
-            "server": "188.114.96.139",
-            "server_port": 7559,
+            "server": "188.114.98.65",
+            "server_port": 4500,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "aMUngJfZoxbI4lMxB6CB/VDJTz1/AW4k2JCdn+GMUHs=",
+            "private_key": "GOtywcmT6+vPCqEajuDaekTrOEb0FR2ZyvAFG45T2nQ=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1384,
             "reserved": [
-                3,
-                183,
-                177
+                40,
+                246,
+                37
             ],
             "detour": "direct",
             "workers": 2
@@ -119,19 +119,19 @@
         {
             "tag": "WARP-WIW",
             "type": "wireguard",
-            "server": "188.114.98.23",
-            "server_port": 1018,
+            "server": "188.114.96.141",
+            "server_port": 859,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "cLJ3swB+WhM3DA3mkQp7NIEXAP37lnmIEaorOvrPTWQ=",
+            "private_key": "0O+UbAgOq+E0yYWokoUt09PJb94nTdgFho218Wrqt1Y=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1384,
             "reserved": [
-                154,
-                33,
-                129
+                98,
+                43,
+                106
             ],
             "detour": "WARP-MAIN",
             "workers": 2
