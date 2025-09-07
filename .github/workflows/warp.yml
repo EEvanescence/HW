@@ -2,13 +2,14 @@ name: CHEF_Warp
 
 on:
   push:
-    branches: [ "main" ]
-    paths:
-      - 'warp.py'
-      - 'Template/singbox_template.json'
-      - 'Template/xray_template.json'
-  schedule:
-    - cron: '0 0,12 * * *'
+#    branches: [ "main" ]
+#    paths:
+#      - 'warp.py'
+#      - 'Template/singbox_template.json'
+#      - 'Template/xray_template.json'
+#  schedule:
+#    - cron: '0 0,12 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
